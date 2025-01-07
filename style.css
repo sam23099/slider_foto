@@ -1,0 +1,202 @@
+
+.someclass{
+    margin: 0 0 0 100px;
+    padding: 0;
+}
+
+.container{
+    width:1440px;
+    height: 900px;
+    background-color: black;
+}
+
+
+.rostov_on_don{
+padding: 107px 90px 123px;
+width: 1171px;
+height: 552.28px;
+gap: 0px;
+opacity: 0px;
+}
+
+.hotels_all{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 1350px;
+    
+  
+}
+
+.hotels{
+ text-decoration: none;
+  color: grey;
+margin-right: 60px;
+font-family: Yeseva One;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.4px;
+
+}
+
+.hotels:hover { color:  #E3B873;
+    transition: 0.5s;
+  text-decoration: underline;
+  transition: transform 0.5s ease;
+}
+
+.desk_all{
+margin-top:50px;
+margin-left: 50px;
+width: 442px;
+height: 390px;
+top: 176.36px;
+left: 134px;
+gap: 0px;
+opacity: 0px;
+}
+
+.nav_desc{
+display:flex;
+align-items: end;
+justify-content:start;
+width: 253px;
+height: 90px;
+}
+
+.desc_title{
+    margin:0;
+}
+
+.complite_project{
+color: #E3B873;
+font-family: Yeseva One;
+font-size: 16px;
+font-weight: 400;
+line-height: 37px;
+text-align: left;
+top: -10px;
+}
+
+.line{
+width:100px;
+height: 1px;
+background-color: #E3B873;
+}
+
+
+.desc_par{
+font-family: Nunito Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 26.73px;
+text-align: left;
+color: #FFFFFF;
+}
+
+.town{
+font-family: Yeseva One;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.95px;
+text-align: left;
+color: #E3B873;
+margin-right: 100px;
+}
+
+.all_desc{
+    margin-top: 50px;
+    display: flex;
+  
+}
+
+.town_desc{
+font-family: Nunito Sans;
+font-size: 13px;
+font-weight: 400;
+line-height: 21.28px;
+text-align: left;
+color: #FFFFFF;
+}
+
+
+.continer_desc{
+    width: 170px;
+}
+
+
+.slider {
+    width: 679px;
+    height: 482.38px;
+    top: -450px;
+    left: 600px;
+    gap: 0px;
+    opacity: 0px;    
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .controls {
+    position: relative;
+    width: 230px;
+    top: 30px;
+    right: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .control {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+
+  .slider__dots {
+    display: flex;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background: #b7b4b4;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+
+
+  .slider__dots-item {
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    
+  }
+
+  .slider__dots:hover, .slider__dots.active {
+    background: #fbfcfb;
+  }
+
+ .hotels.active {
+  background:black;
+}
